@@ -1,0 +1,51 @@
+#container-fluid{
+    background-color: white;
+    
+}
+
+/* body */
+
+#up-body{
+    width: 50%;
+ 
+    display: flex;
+    min-width: 70%;
+    margin: auto;
+    
+    border: 1px red solid;
+}
+
+#up-body-h1{
+display: flex;
+justify-content: center;
+}
+
+#up-body-p{
+    display: flex;
+justify-content: center;
+}
+
+#inline{
+    display: inline;
+    margin-top: 10px;
+   
+
+}
+
+#up-body-input{
+    
+    border-radius: 10px;
+    width: 84%;
+   height: 20%;
+}
+
+#up-body-search{
+    border-radius: 10px;
+width: 13%;
+height: 20%;
+}
+
+
+
+
+
