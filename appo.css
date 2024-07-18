@@ -3,21 +3,60 @@
     
 }
 
-/* body */
 
+.navv{
+    position: fixed;
+    height: 50px;
+margin-top: 35px;
+}
+
+.homeee{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.navbar-brand{
+    color: rgb(43, 0, 83);
+
+}
+
+
+.subscribe{
+    background-color: rgb(43, 0, 83);
+    color: white;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+/* body */
+#upppp{
+    background-color: rgba(128, 128, 128, 0.422);
+}
 #up-body{
     width: 50%;
+    
  
     display: flex;
-    min-width: 70%;
-    margin: auto;
+    min-width: 50%;
+    margin:0px auto 50px auto;
+
     
-    border: 1px red solid;
 }
+
+
+
+
+
 
 #up-body-h1{
 display: flex;
 justify-content: center;
+padding-top: 8%;
 }
 
 #up-body-p{
@@ -27,7 +66,7 @@ justify-content: center;
 
 #inline{
     display: inline;
-    margin-top: 10px;
+   
    
 
 }
@@ -40,12 +79,284 @@ justify-content: center;
 }
 
 #up-body-search{
+    border: none;
+    background-color:rgb(40, 0, 78);
+    color: white;
     border-radius: 10px;
-width: 13%;
+width: 14%;
 height: 20%;
 }
 
 
 
+#containers{
+    width: 50%;
+ 
+    display: flex;
+    min-width: 50%;
+  margin: auto;
 
 
+
+
+
+}
+
+.column{
+    border-radius: 20px;
+    font-size: xx-small;
+   margin: 5px;
+    border: 1px solid black;
+}
+
+
+
+#latests{
+    width: 50%;
+    
+    min-width: 82%;
+    margin: 10px auto 0px auto;
+}
+
+
+
+.jobcol{
+    
+    box-shadow: -1px 1px 5px gray;
+    height: 80%;
+    margin: 50px 10px 35px 0px;
+    border-radius: 8px;
+    padding:10px 10px 20px 0px;
+    margin-top: 50px;
+}
+
+
+.h1s{
+font-size: 30px;
+color: rgba(0, 0, 0, 0.835);
+}
+
+.p1s{
+    color: rgba(0, 0, 0, 0.509);
+font-size: larger;
+}
+
+
+#chanels{
+    width: 50%;
+    min-width: 82%;
+    margin: auto;
+}
+
+
+#viewall{
+color: black;
+padding-bottom: 5px;
+}
+
+
+#advertisement{
+    margin-top: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px grey solid;
+height: 100px;
+}
+
+#advertisementp{
+font-size: large;
+color: rgba(0, 0, 0, 0.628);
+    margin-bottom: 0px;
+}
+
+ #chanel{
+    
+    margin-top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+ }
+
+#chanell{
+ display: flex;  
+}
+
+#imggg{
+  display: flex;
+  margin: 6px 6px 0px 6px ;
+}  
+
+
+
+
+#compeny{
+
+    height: 85px;
+    width: 85px;
+}
+
+
+#mobile{
+    font-size: large;
+   color: rgba(0, 0, 0, 0.900);
+}
+
+
+#code{
+font-size: medium;
+}
+
+
+
+#pakistan{
+    font-size: small;
+    color: rgba(0, 0, 0, 0.826);
+
+
+}
+
+
+#twoinone{
+display: flex;
+
+}
+
+
+
+#onsite{margin: 8px 5px 5px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+width: 60px;
+background-color: rgba(0, 128, 0, 0.2);
+
+}
+
+
+#Contractor{
+    margin: 8px 5px 5px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+width: 85px;
+background-color: rgba(0, 128, 0, 0.2);
+
+}
+
+
+#months{
+font-size:  small;
+color: rgb(0, 113, 0);
+}
+
+
+#chanel-2{
+background-color: rgba(128, 128, 128, 0.131);
+margin: 15px;
+
+
+}
+
+
+#mobile-2{
+padding: 0px 0px 10px 10px;
+font-size: small;
+color: black;
+
+}
+
+
+#detailss{
+    display: flex;
+    justify-content: end;
+}
+
+
+#details{
+    margin: 0px 10px 5px 0px ;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 32px;
+width: 100px;
+border-radius: 20px;
+background-color: rgb(29, 0, 46);
+color: white;
+font-size: small    ;
+}
+
+
+
+/* footer */
+
+
+#bottom{
+background-color: rgba(128, 128, 128, 0.079);
+margin: 50px 0px 70px 0px;
+}
+
+
+
+
+#bottomm{
+    width: 50%;
+    min-width: 50%;
+  margin: 30px auto 20px auto;
+  padding-top:50px ;
+}
+
+
+#dont{
+
+text-align: center;
+font-size: x-large;
+}
+
+
+.subscribe{
+text-align: center;
+
+
+}
+
+#well{
+    text-align: center;
+   font-size: medium;
+color: rgba(0, 0, 0, 0.775);
+
+}
+#enter{
+display: flex;
+justify-content: center;
+}
+
+
+
+
+#your{
+    border: 1px solid rgba(0, 0, 0, 0.604) ;
+    display: inline;
+font-size: small;
+color: white;
+height: 100%;
+width: 79%;
+height: 45px;
+margin-right:20px;
+border-radius: 5px;
+padding-left: 10px;
+}
+
+
+
+#email{
+    display: inline;
+    font-size: large;
+background-color:rgb(29, 0, 46);
+color: white;
+width: 25%;
+height: 45px;
+border-radius: 5px;
+}
