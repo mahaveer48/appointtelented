@@ -200,7 +200,7 @@ flex-wrap: wrap;
     box-shadow: -1px 1px 5px gray;
     margin: 50px 20px 35px 0px;
     padding:10px 10px 20px 0px;
-height: 85%;
+
 
  
 }
@@ -208,7 +208,7 @@ height: 85%;
 
 
 #jobcol2{
-display: flex;
+display: block;
     
 }
   
@@ -486,6 +486,7 @@ border-radius: 5px;
 /* footer */
 .parent {
     display: flex;
+    flex-wrap: wrap;
   justify-content: space-between;
 }
     .div1 { grid-area: 1 / 1 / 6 / 2; }
