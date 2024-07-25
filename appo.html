@@ -4,6 +4,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <head>
+  <link rel="icon" type="image/x-icon" href="./assits/logo.png">
     <link rel="stylesheet" href="appo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,46 +14,50 @@
 <body>
     <!-- navbar -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-    <div class="container-fluid navv" id="container-fluid">
-      <a class="navbar-brand" href="#">       <img src="./assits/Screenshot 2024-07-16 172825.png" alt="nothing">  appointtalanted</a>
-      <button id="three-line" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse homeee" id="navbarSupportedContent " >
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link _links" href="#">jobs</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              scholarships
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">9th</a></li>
-              <li><a class="dropdown-item" href="#">10th</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">other</a></li>
-            </ul>
-          </li>
-         
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacts Us</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <button class="subscribe" type="submit">subscribe</button>
-        </form>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid navv" id="container-fluid">
+        <a class="navbar-brand" href="#">       <img src="./assits/Screenshot 2024-07-16 172825.png" alt="nothing">  appointtalanted</a>
+        <button id="three-line" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse homeee" id="navbarSupportedContent " >
+         <div id="homeies">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link _links" href="#">jobs</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                scholarships
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">9th</a></li>
+                <li><a class="dropdown-item" href="#">10th</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">other</a></li>
+              </ul>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts Us</a>
+            </li>
+          </ul>
+          </div>
+          <form class="d-flex">
+            <button class="subscribe" type="submit">subscribe</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
-
+    </nav>
+  
+  
 
      <!-- navbar closeed -->
  <!-- body-start -->
@@ -77,58 +82,95 @@
 
 
   <!-- colums -->
-<div id="containers"> 
+<!-- <div id="containers"> 
+    
   <div class="container">
+    <h3 id="popular">popular searches:</h3>
     <div class="row">
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-       <p> ⌕ full-time job </p>
+      <div class="col column">
+       <p>  full-time job </p>
       </div> 
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-       <p>⌕ part-time</p>
+      <div class="col column">
+       <p> part-time</p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-        <p>⌕ remote</p>
+      <div class="col column">
+        <p> remote</p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-        <p>⌕ internship</p>
+      <div class="col column">
+        <p> internship</p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-        <p>⌕ contract</p>
+      <div class="col column">
+        <p> contract</p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-      <p>⌕ freelance</p>
+      <div class="col column">
+      <p> freelance</p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-        <p>⌕ education</p>
+      <div class="col column">
+        <p> education</p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-        <p>⌕ merit-bassed</p>
+      <div class="col column">
+        <p> merit-bassed</p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-        <p>⌕ Need-based </p>
+      <div class="col column">
+        <p> Need-based </p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-        <p>⌕ woman-scholarships</p>
+      <div class="col column">
+        <p> woman-scholarships</p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-        <p>⌕ Minority-Scholarships</p>
+      <div class="col column">
+        <p> Minority-Scholarships</p>
 
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-     <p> ⌕  International-Scholarships</p>
+      <div class="col column">
+     <p>   International-Scholarships</p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-       <p>⌕ Graduate-Scholarships</p>
+      <div class="col column">
+       <p> Graduate-Scholarships</p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-<p>⌕ Undergraduate-Scholarships</p>
+      <div class="col column">
+      <p> Undergraduate-Scholarships</p>
       </div>
-      <div class="col-lg-2 col-md-3 col-sm-6 column">
-       <p>⌕ Study-aboard</p> 
+      <div class="col column">
+       <p> Study-aboard</p> 
       </div>
       
     </div>
   </div>
+</div> -->
+
+
+
+
+
+
+
+<!-- </div> -->
+
+
+
+
+<div id="conta">
+ 
+
+<div id="latestssss">
+<div class="conn"> Full-time Job</div>
+<div class="conn"> Part-time</div>
+<div class="conn"> Remote</div>
+<div class="conn">Internship</div>
+<div class="conn"> Contract</div>
+<div class="conn"> Freelance</div>
+<div class="conn"> Education</div>
+<div class="conn"> Merit-based</div>
+<div class="conn">Need-based</div>
+<div class="conn"> Women Scholarships</div>
+<div class="conn"> Minority Scholarships</div>
+<div class="conn"> International Scholarships</div>
+<div class="conn"> Graduate Scholarships</div>
+<div class="conn">Undergraduate Scholarships</div>
+<div class="conn">Study Abroad</div>
+
+</div>
+
 </div>
 
 
@@ -137,24 +179,32 @@
 
 
 
-</div>
+
+
+
+
+
+
+
+
 
 <!-- jobs -->
 
 
 
 
-<div id="latests">
+<div class="latestss">
 <div class="row align-items-center">
-  <div class="col jobcol">
+  <div class="col jobcol" id="jobcol2">
     <div id="latest">
       <h1 class="h1s">latest job listings</h1>
       <hr>
       <p class="p1s">stay updates with the newest job opening in vat=rious industries.</p>
     </div>
   </div>
-  <div class="col jobcol">
-  <h1 class="h1s">Exclusive scolerships</h1>
+  <div class="col jobcol" id="jobcol2">
+  <h1 class="h1s">Exclusive scolerships </h1>
+  <br><br>
   <hr>
   <p class="p1s">Find scholarships that can help you fund your education.</p>
   </div>
@@ -385,7 +435,7 @@ chanels -->
 <h4 id="well">We'll help you to grow your career and growth.</h4>
 <div id="enter">
   <input id="your" type="text" placeholder="enter Your email">
-  <button id="email" type="submit" ><p>subscribe</p></button> 
+  <button id="email" type="submit" ><p id="subscribe">subscribe</p></button> 
 </div>
 </div>
 
@@ -393,26 +443,298 @@ chanels -->
 
 </div>
 
+<!-- 
+
+<div id="fivee">
+
+<div id="footer">
+  <div class="col lol">
+  <div class="containerrr">
+    <div class="col">
+    <div class="col wor">
+   <h4>AppointTalent</h4>
+    </div>
+    <div class="col wor">
+    99 10th Drive Sunnyside, NY 11104
+    </div>
+    <div class="col wor">
+      email@findy.com
+    </div>
+    <div class="col wor"> 
+           315-793-8183
+    </div>
+    <div class="col wor">
+            <img id="footer-image" src="./assits/footer.png" alt="">
+    </div>
+  </div></div>
+
+
+<div class="containerrr">
+  <div class="col lol">
+  <div class="col wor">
+
+    <h1>Scholarship Categories</h1>
+     </div>
+     <div class="col wor">
+      Graduate Scholarships
+     </div>
+     <div class="col wor">
+      International Scholarships
+     </div>
+     <div class="col wor">
+      Minority Scholarships
+     </div>
+     <div class="col wor">
+      Sports Scholarships
+     </div>
+     <div class="col wor">
+     Business Scholarships
+    </div>
+    
+</div>
+</div>
 
 
 
 
+<div class="containerrr">
+  <div class="col lol">
+  <div class="col wor">
+    <h1>Quick Links
+    </h1>
+  </div>
+  <div class="col wor">
+    Job Listings
+   
+  </div>
+  <div class="col wor">
+    Scholarships
+    
+  </div>
+  <div class="col wor">
+    Career Resources
+
+  </div>
+  <div class="col wor">
+    Popular Searches
+    
+  </div>
+  
+</div>
+</div>
 
 
 
 
+<div class="containerrr">
+  <div class="col lol">
 
 
 
+  <div class="col wor">
+     <h1>Customer support</h1>
+
+</div>
+<div class="col wor">
+    Help Center
+
+</div>
+<div class="col wor">
+    Contact Us
+
+</div>
+<div class="col wor">
+    FAQ
+
+</div>
+<div class="col wor">  
+  Privacy Policy
 
 
 
+</div>
+
+
+<div class="col wor">
+    Terms of Service
+
+</div>
+
+</div>
+</div>
 
 
 
+<div class="containerrr">
 
 
 
+  <div class="col lol">
+  <div class="col wor">
+   <h1>job categories</h1>
+  
+  </div>
+  <div class="col wor">
+    Technology
+  
+  </div>
+  <div class="col wor">
+    Finance
+  
+  </div>
+  <div class="col wor">
+    Education
+  
+  </div>
+  <div class="col wor">
+    Education
+  
+  </div>
+  
+  
+  <div class="col wor">
+    Creative Arts
+
+  </div>
+  
+  <div class=" col wor">
+    Engineering
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+ -->
+
+<div class="parent">
+  <div class="div1"><div class="col wor">
+    <h4>AppointTalent</h4>
+     </div>
+     <div class="col wor">
+     99 10th Drive Sunnyside, NY 11104
+     </div>
+     <div class="col wor">
+       email@findy.com
+     </div>
+     <div class="col wor"> 
+            315-793-8183
+     </div>
+     <div class="col wor">
+             <img id="footer-image" src="./assits/footer.png" alt="">
+     </div> </div>
+  <div class="div2"> <div class="col wor">
+
+    <h1>Scholarship Categories</h1>
+     </div>
+     <div class="col wor">
+      Graduate Scholarships
+     </div>
+     <div class="col wor">
+      International Scholarships
+     </div>
+     <div class="col wor">
+      Minority Scholarships
+     </div>
+     <div class="col wor">
+      Sports Scholarships
+     </div>
+     <div class="col wor">
+     Business Scholarships
+    </div>
+     </div>
+  <div class="div3"> <div class="col wor">
+    <h1>Quick Links
+    </h1>
+  </div>
+  <div class="col wor">
+    Job Listings
+   
+  </div>
+  <div class="col wor">
+    Scholarships
+    
+  </div>
+  <div class="col wor">
+    Career Resources
+
+  </div>
+  <div class="col wor">
+    Popular Searches
+    
+  </div>
+   </div>
+  <div class="div4"> 
+    <div class="col wor">
+       <h1>Customer support</h1>
+  
+  </div>
+  <div class="col wor">
+      Help Center
+  
+  </div>
+  <div class="col wor">
+      Contact Us
+  
+  </div>
+  <div class="col wor">
+      FAQ
+  
+  </div>
+  <div class="col wor">  
+    Privacy Policy
+  
+  
+  
+  </div>
+  
+  
+  <div class="col wor">
+      Terms of Service
+  
+  </div>
+  </div>
+  <div class="div5"> <div class="col wor">
+    <h1>job categories</h1>
+   
+   </div>
+   <div class="col wor">
+     Technology
+   
+   </div>
+   <div class="col wor">
+     Finance
+   
+   </div>
+   <div class="col wor">
+     Education
+   
+   </div>
+   <div class="col wor">
+     Education
+   
+   </div>
+   
+   
+   <div class="col wor">
+     Creative Arts
+ 
+   </div>
+   
+   <div class=" col wor">
+     Engineering
+   </div> </div>
+  </div>
+  
+
+
+<div id="mahaveeramani">
+<pre id="mahaveerr">
+
+ b y :    M a h a v e e r   R a m a n i
+</pre>
+</div>
 
 
 

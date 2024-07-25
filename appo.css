@@ -6,10 +6,14 @@
 
 .navv{
     position: fixed;
-    height: 50px;
-margin-top: 35px;
+    height: 15%;
+margin-top:3%;
 }
 
+#homeies{
+    display: flex;
+    justify-content: space-around;
+}
 .homeee{
     display: flex;
     justify-content:flex-end;
@@ -34,14 +38,14 @@ margin-top: 35px;
 
 
 /* body */
-#upppp{
-    background-color: rgba(128, 128, 128, 0.422);
+#upppp{margin-top: 50px;
+
+    background-color: rgba(128, 128, 128, 0.13);
 }
 #up-body{
     width: 50%;
-    
- 
     display: flex;
+    justify-content: center;
     min-width: 50%;
     margin:0px auto 50px auto;
 
@@ -86,48 +90,140 @@ justify-content: center;
 width: 14%;
 height: 20%;
 }
+/* boxs */
 
-
+#popular{
+    color: rgba(128, 128, 128, 0.612);
+    text-decoration:underline;
+    font-size: medium;
+    margin-bottom: 10px;}
 
 #containers{
     width: 50%;
- 
+ flex-wrap: wrap;
     display: flex;
+    
     min-width: 50%;
   margin: auto;
 
+}
 
 
 
+#container{
+    margin: 0px 5px 5px 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+width: 85px;
+background-color: rgba(0, 128, 0, 0.2);
 
 }
 
+
+/* 
 .column{
+    display: flex;
+    text-align:center ;
     border-radius: 20px;
     font-size: xx-small;
-   margin: 5px;
+    display: flex;
+    max-width: 100px;
+    max-height: 30px;
+    align-items: center;
+    margin: 5px;
     border: 1px solid black;
 }
 
+*/
 
 
-#latests{
+ 
+ #conta{
+display: flex;
+flex-wrap: wrap;
+} 
+
+
+
+
+#latestssss{
+    display: inline;
     width: 50%;
+    flex-wrap: wrap;
+       display: flex;
+       justify-content: center;
+       
+       min-width: 50%;
+     margin: auto;
+    margin: 3px auto 0px auto;
+} 
+
+
+
+
+.conn{
     
-    min-width: 82%;
-    margin: 10px auto 0px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap:wrap;
+   margin: 5px;
+   padding: 3PX;
+    width: 100px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* jobs  */
 
 .jobcol{
     
     box-shadow: -1px 1px 5px gray;
-    height: 80%;
-    margin: 50px 10px 35px 0px;
-    border-radius: 8px;
+    margin: 50px 20px 35px 0px;
     padding:10px 10px 20px 0px;
-    margin-top: 50px;
+height: 85%;
+
+ 
+}
+
+
+
+#jobcol2{
+display: flex;
+    
+}
+  
+
+
+
+
+.latestss{justify-content: center;
+ display: flex;
+    width: 50%;
+    min-width: 82%;
+    margin: auto;
+    
+    margin-bottom: 200px;
+    overflow:visible;
 }
 
 
@@ -140,14 +236,15 @@ color: rgba(0, 0, 0, 0.835);
     color: rgba(0, 0, 0, 0.509);
 font-size: larger;
 }
-
+/* chanels */
 
 #chanels{
+  display: block;
     width: 50%;
     min-width: 82%;
     margin: auto;
 }
-
+/* viewall */
 
 #viewall{
 color: black;
@@ -169,9 +266,11 @@ font-size: large;
 color: rgba(0, 0, 0, 0.628);
     margin-bottom: 0px;
 }
-
+/* chANEL */
  #chanel{
     
+    
+    box-shadow: -5px 0px 0px black ;
     margin-top: 30px;
     border: 1px solid rgba(0, 0, 0, 0.38);
  }
@@ -232,6 +331,7 @@ width: 60px;
 background-color: rgba(0, 128, 0, 0.2);
 
 }
+
 
 
 #Contractor{
@@ -315,12 +415,15 @@ text-align: center;
 font-size: x-large;
 }
 
+/* 
+email{
 
-.subscribe{
-text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
 
 
-}
+} */
 
 #well{
     text-align: center;
@@ -360,3 +463,58 @@ width: 25%;
 height: 45px;
 border-radius: 5px;
 }
+
+#subscribe{padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.parent {
+    display: flex;
+  justify-content: space-between;
+}
+    .div1 { grid-area: 1 / 1 / 6 / 2; }
+    .div2 { grid-area: 1 / 2 / 6 / 3; }
+    .div3 { grid-area: 1 / 5 / 6 / 6; }
+    .div4 { grid-area: 1 / 4 / 6 / 5; }
+    .div5 { grid-area: 1 / 3 / 6 / 4; }
+
+   
+
+/* sdgkjdfbkldfsnk;lbg */
+
+#mahaveeramani{
+    background-color: rgb(69, 2, 133);
+    margin: 0%;
+    padding: 0%;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#mahaveerr{
+    color: white;
+    font-weight: 800;
+    font-size: larger;
+}
+
+
+
